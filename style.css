@@ -1,0 +1,96 @@
+* {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://i.pinimg.com/originals/b3/45/e4/b345e46becdaeaaa9dcf6ea6144c91a9.jpg");
+    background-color: #111;
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  h3 {
+    text-align: center;
+    color: white; 
+  }
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }  
+  h2 {
+    text-align: center;
+    color: white;
+  }
+
+  .counter-label {
+    text-align: center;
+  }
+
+  #counter-label {
+    color: white; 
+  }
+/*variavel para configurar os botoes*/
+  .butao1 {
+    box-shadow: 0px 0px 13px 0px #3dc21b;
+    background-color:#44c767;
+    border-radius:25px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:21px;
+    padding:20px 36px;
+    text-decoration:none;
+    text-shadow:1px -3px 37px #2f6627;
+  }
+  .butao1:hover {
+    background-color:#5cbf2a;
+  }
+  /*variavel para ativar o butao deixando assim o botao usavel*/
+  .butao1:active {
+    position:relative;
+    top:1px;
+  }
+
+  .butao2 {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+    background-color:#c62d1f;
+    border-radius:18px;
+    border:1px solid #d02718;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:7px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #810e05;
+  }
+  .butao2:hover {
+    background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+    background-color:#f24437;
+  }
+  .butao2:active {
+    position:relative;
+    top:1px;
+  }
